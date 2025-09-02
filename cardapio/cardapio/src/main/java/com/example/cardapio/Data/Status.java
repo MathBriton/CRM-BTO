@@ -1,4 +1,4 @@
-package com.example.cardapio.Data;
+package com.example.application.data;
 
 import jakarta.persistence.Entity;
 
@@ -21,4 +21,5 @@ public class Status extends AbstractEntity {
     public void setName(String name) {
         this.name = name;
     }
+
 }
