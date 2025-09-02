@@ -1,4 +1,5 @@
 package com.example.cardapio.Data;
 
-public class StatusRepository {
+public interface StatusRepository extends JpaRepository<Status,Long>{
+    
 }
